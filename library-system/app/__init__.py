@@ -1,4 +1,6 @@
-import SQLAlchemy as SQLAlchemy
+from urllib.parse import quote
+
+from flask_sqlalchemy import SQLAlchemy
 from flask import Flask
 from flask_login import LoginManager
 
@@ -10,4 +12,4 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 
 db = SQLAlchemy(app)
 
-login = LoginManager(app)
+# login = LoginManager(app)
