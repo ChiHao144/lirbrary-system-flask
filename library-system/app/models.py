@@ -2,7 +2,7 @@ from sqlalchemy.sql.functions import now
 
 from app import db
 from flask_login import UserMixin
-from sqlalchemy import Column, Integer, String, ForeignKey, Date, DateTime, Boolean
+from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Boolean
 from enum import Enum as RoleEnum, Enum
 
 
